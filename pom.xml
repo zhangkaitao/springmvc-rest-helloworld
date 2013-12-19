@@ -8,21 +8,29 @@
     <artifactId>springmvc-rest-helloworld</artifactId>
     <version>1.0-SNAPSHOT</version>
     <dependencies>
+
+        <!-- servlet 3 -->
         <dependency>
             <groupId>javax.servlet</groupId>
             <artifactId>javax.servlet-api</artifactId>
             <version>3.0.1</version>
         </dependency>
+
+        <!--spring context -->
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-context-support</artifactId>
             <version>4.0.0.RELEASE</version>
         </dependency>
+
+        <!--spring webmvc -->
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-webmvc</artifactId>
             <version>4.0.0.RELEASE</version>
         </dependency>
+
+        <!--jackson -->
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-databind</artifactId>
